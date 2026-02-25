@@ -10,7 +10,7 @@ Hardware:
     - Arduino Uno connected via USB
     - L298N Motor Driver + DC Motor
     - Arduino must be running PreformedVine_KeyboardControl.ino
-
+    
 Usage:
     1. Update SERIAL_PORT below to match your Arduino
     2. Run: python vine_robot_integrated.py
