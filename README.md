@@ -1,11 +1,6 @@
 # Vine-Robot
-╔══════════════════════════════════════════════════════════════╗
-║         PREFORMED VINE ROBOT — INTEGRATED SYSTEM            ║
-║                                                              ║
-║  Webcam (YOLOv8)  →  Python Brain  →  Arduino + L298N       ║
-║                             ↕                               ║
-║                    PyBullet 3D Simulation                    ║
-╚══════════════════════════════════════════════════════════════╝
+PREFORMED VINE ROBOT — INTEGRATED SYSTEM
+Webcam (YOLOv8) → Python Brain → Arduino + L298N → PyBullet 3D Simulation                    
 
 Requirements:
     pip install ultralytics opencv-python pyserial pybullet
