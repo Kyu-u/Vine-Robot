@@ -1,5 +1,5 @@
 # Vine-Robot
-LAPTOP WEBCAM AND VINE ROBOT SYSTEM WITH THERMAL HUMAN DETECTION
+LAPTOP WEBCAM AND VINE ROBOT SYSTEM WITH THERMAL HUMAN DETECTION  
 Webcam → Thermal Filter → YOLOv8 Nano → Arduino + L298N → PyBullet                    
 
 Press T → Toggle between Thermal and Normal View
