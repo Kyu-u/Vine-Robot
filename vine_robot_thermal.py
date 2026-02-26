@@ -1,30 +1,3 @@
-"""
-╔══════════════════════════════════════════════════════════════════╗
-║       PREFORMED VINE ROBOT — THERMAL VISION SYSTEM              ║
-║                                                                  ║
-║  Webcam → Thermal Filter → YOLOv8 → Arduino + L298N + PyBullet  ║
-╚══════════════════════════════════════════════════════════════════╝
-
-How the thermal simulation works:
-  1. Grab normal webcam frame
-  2. Convert to grayscale
-  3. Apply CLAHE (contrast boost) so warm/bright areas stand out
-  4. Apply COLORMAP_INFERNO — black=cold, purple=cool, orange=warm, white=hot
-  5. Run YOLOv8 on the ORIGINAL frame for best detection accuracy
-  6. Draw detections on top of the thermal-coloured frame
-
-Press T  → Toggle between Thermal view and Normal RGB view
-Press Q  → Quit
-
-Requirements:
-    pip install ultralytics opencv-python pyserial pybullet
-
-Hardware:
-    - Laptop webcam
-    - Arduino Uno (USB) running PreformedVine_KeyboardControl.ino
-    - L298N Motor Driver + DC Motor
-"""
-
 import cv2
 import serial
 import time
